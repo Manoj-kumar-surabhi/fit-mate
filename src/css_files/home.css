@@ -1,0 +1,61 @@
+.home {
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  padding: 5px;
+  grid-gap: 7px;
+  background-color: black;
+}
+.div1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 500px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  border-radius: 7px;
+  padding: 35px;
+  align-items: center;
+}
+
+.div2 {
+}
+
+#transform {
+  color: teal;
+}
+#life {
+  color: white;
+}
+#caring {
+  color: white;
+  align-items: stretch;
+  justify-content: left;
+}
+#readmore {
+  background-color: teal;
+  color: white;
+  width: 200px;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+#cards {
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+.card {
+  background-color: grey;
+  color: white;
+  width: 350px;
+  height: 220px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 0px;
+}

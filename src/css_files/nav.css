@@ -1,0 +1,16 @@
+li:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #019fb6;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+li:hover:after {
+  transform: scaleX(1);
+}
+li.fromRight:after {
+  transform-origin: 100% 50%;
+}
+li.fromLeft:after {
+  transform-origin: 0% 50%;
+}

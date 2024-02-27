@@ -3,7 +3,6 @@
   align-items: center;
   flex-flow: wrap;
   justify-content: center;
-  grid-template-columns: auto auto;
   padding: 5px;
   grid-gap: 7px;
   background-color: black;
@@ -22,6 +21,11 @@
 }
 
 .div2 {
+  width: auto;
+  height: auto;
+  background-image: url("../images/body_builder.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #transform {

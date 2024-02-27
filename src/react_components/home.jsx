@@ -20,10 +20,6 @@ export default function home() {
 
           <h5 id="readmore"> READ MORE </h5>
         </div>
-
-        <div className="div2">
-          <h3 className="photo">image</h3>
-        </div>
       </div>
 
       <div id="cards">

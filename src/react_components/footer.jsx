@@ -50,9 +50,9 @@ export default function Footer() {
                 }}
               />
               <p>
-                Fitmate dsjdhjdhwsjdh jhdwshsch sjchwdchdwuc chwuchwucch
-                scuhwwuch. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+                Fitmate bhai ka birthdayyyy jhdwshsch pani chwuchwucch
+                scuhwwuch. Lorem ipsum dolor sit amet, neeku endhuku ra website
+                ela untey elit.
               </p>
             </div>
 

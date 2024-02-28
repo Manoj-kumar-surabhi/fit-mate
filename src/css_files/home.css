@@ -3,8 +3,6 @@
   align-items: center;
   flex-flow: wrap;
   justify-content: center;
-  padding: 5px;
-  grid-gap: 7px;
   background-color: black;
 }
 .div1 {
@@ -14,33 +12,42 @@
   width: 500px;
   display: flex;
   flex-flow: column;
-  justify-content: center;
   border-radius: 7px;
   padding: 35px;
   align-items: center;
 }
 
 .div2 {
-  width: 200px;
-  height: 300px;
-  object-fit: cover;
+  width: 700px;
+  height: 540px;
+  border: 1px solid black; /* Optional: just for visualization */
+  overflow: hidden;
+}
+
+.div2 img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
 }
 
 #transform {
   color: teal;
+  font-size:;
 }
 #life {
   color: white;
 }
 #caring {
   color: white;
-  align-items: stretch;
-  justify-content: left;
+  text-align: justify;
+  margin: 30px 0px 30px 0px;
+  font-size: 17px;
 }
 #readmore {
   background-color: teal;
   color: white;
-  width: 200px;
+  width: 180px;
   border-radius: 7px;
   padding: 10px;
 }

@@ -1,5 +1,5 @@
 import "../css_files/home.css";
-import BodyBuilder from "../images/body_builder.jpg";
+import BodyBuilder from "../images/body_builder.png";
 
 export default function home() {
   return (
@@ -21,8 +21,9 @@ export default function home() {
 
           <h5 id="readmore"> READ MORE </h5>
         </div>
-
-        <img src={BodyBuilder} alt="error" />
+        <div className="div2">
+          <img src={BodyBuilder} alt="error" />
+        </div>
       </div>
 
       <div id="cards">

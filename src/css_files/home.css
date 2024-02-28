@@ -21,11 +21,9 @@
 }
 
 .div2 {
-  width: auto;
-  height: auto;
-  background-image: url("../images/body_builder.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
 }
 
 #transform {

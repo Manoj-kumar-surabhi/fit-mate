@@ -1,6 +1,7 @@
 import "../css_files/nav.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bs-brain/components/navbars/navbar-1/assets/css/navbar-1.css";
+import Logo from "../images/logo.png";
 
 export default function nav() {
   return (
@@ -9,7 +10,9 @@ export default function nav() {
       style={{ backgroundColor: "#222" }}
     >
       <div className="container">
-        <h3 className="navbar-brand">LOGO/ICON</h3>
+        <div className="nav-div">
+          <img src={Logo} alt="error" />
+        </div>
         <button
           className="navbar-toggler border-0"
           type="button"

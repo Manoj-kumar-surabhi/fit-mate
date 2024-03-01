@@ -1,0 +1,37 @@
+.div2proto {
+  display: grid;
+  grid-template-columns: 430px;
+  grid-template-rows: 100px 220px 200px 50px;
+  text-align: left;
+  margin: 7px;
+  grid-gap: 6px;
+  border-bottom: 3px solid rgb(233, 221, 212);
+}
+
+.div2proto:after {
+  display: block;
+  content: "";
+  border-bottom: 4px solid #019fb6;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.div2proto:hover:after {
+  transform: scaleX(1);
+}
+.div2proto.fromRight:after {
+  transform-origin: 100% 50%;
+}
+.div2proto.fromLeft:after {
+  transform-origin: 0% 50%;
+}
+
+.div2image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div2real {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}

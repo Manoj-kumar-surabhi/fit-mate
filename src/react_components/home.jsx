@@ -25,32 +25,6 @@ export default function home() {
           <img src={BodyBuilder} alt="error" />
         </div>
       </div>
-
-      <div id="cards">
-        <div className="card">
-          <h4 style={{ margin: "0px" }}>GETTING</h4>
-          <h3 style={{ margin: "0px" }}>STARTED</h3>
-          <p> Heres a step-by-step guide to help you begin your journey</p>
-        </div>
-
-        <div className="card">
-          <h4 style={{ margin: "0px" }}>BEGGINER</h4>
-          <h3 style={{ margin: "0px" }}>PROGRAMS</h3>
-          <p>
-            Ready to embark on your fitness journey? Find a program that
-            inspires and motivates you
-          </p>
-        </div>
-
-        <div className="card">
-          <h4 style={{ margin: "0px" }}>MASS GAIN</h4>
-          <h3 style={{ margin: "0px" }}>PROGRAMS</h3>
-          <p>
-            Increase muscle mass and overall body size through targeted
-            exercise, nutrition, and lifestyle strategies
-          </p>
-        </div>
-      </div>
     </div>
   );
 }

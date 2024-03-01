@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "../images/image1.jpg";
 import PropTypes from "prop-types";
+import "../css_files/cards.css";
 
 const cards_array = [
   {

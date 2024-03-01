@@ -27,13 +27,14 @@ const cards_array = [
 function Card(props) {
   const { image, title, data, key } = props;
   return (
-    <div key={key} className="div2proto">
-      <div
-        className="div2image"
-        style={{ backgroundImage: `url(${image})` }}
-      ></div>
-      <h3>{title}</h3>
-      <p>{data}</p>
+    <div key={key} className="cardsproto">
+      <div className="cardsdiv">
+        <img src={image} alt="error" className="image" />
+      </div>
+      <div>
+        <h4>{title}</h4>
+        <p>{data}</p>
+      </div>
     </div>
   );
 }
@@ -46,7 +47,7 @@ Card.propTypes = {
 };
 
 function Cards() {
-  return <div className="div2real">{cards_array.map(Card)}</div>;
+  return <div className="cards">{cards_array.map(Card)}</div>;
 }
 
 export default Cards;

@@ -29,7 +29,9 @@ function Card(props) {
   return (
     <div key={key} className="cardsproto">
       <div className="cardsdiv">
-        <img src={image} alt="error" className="image" />
+        <figure>
+          <img src={image} alt="error" className="image" />
+        </figure>
       </div>
       <div>
         <h4>{title}</h4>

@@ -1,24 +1,26 @@
 import React from "react";
-import Image from "../images/image1.jpg";
+import Getting_started from "../images/getting_started.png";
+import Begginer_programs from "../images/begginer_programs.png";
+import Mass_gain_program from "../images/mass_gaining_program.png";
 import PropTypes from "prop-types";
 import "../css_files/cards.css";
 
 const cards_array = [
   {
     key: 0,
-    image: Image,
+    image: Getting_started,
     data: "Heres a step-by-step guide to help you begin your journey",
     title: "GETTING STARTED",
   },
   {
     key: 1,
-    image: Image,
+    image: Begginer_programs,
     data: "Ready to embark on your fitness journey? Find a program that inspires and motivates you",
     title: "BEGGINER PROGRAMS",
   },
   {
     key: 2,
-    image: Image,
+    image: Mass_gain_program,
     data: "Increase muscle mass and overall body size through targeted exercise, nutrition, and lifestyle strategies",
     title: "MASS GAIN PROGRAMS",
   },

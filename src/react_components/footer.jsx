@@ -105,7 +105,7 @@ export default function Footer() {
               </p>
               <p>
                 <a href="#!" className="text-dark">
-                  Become an Affiliate
+                  BMI Calculator
                 </a>
               </p>
               <p>

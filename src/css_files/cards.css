@@ -7,8 +7,8 @@
   text-align: left;
   margin: 7px;
   padding: 10px;
-  color: teal;
-  border: 2px solid teal;
+  color: black;
+  border: 2px solid whitesmoke;
   box-shadow: 6px 7px gray;
 }
 figure {
@@ -38,7 +38,7 @@ figure::before {
 }
 figure:hover::before {
   -webkit-animation: shine 0.75s;
-  animation: shine 0.75s;
+  animation: shine 0.85s;
 }
 @-webkit-keyframes shine {
   100% {
@@ -66,6 +66,6 @@ figure:hover::before {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 8px;
-  background-color: whitesmoke;
+  margin: 4px;
+  background-color: blanchedalmond;
 }

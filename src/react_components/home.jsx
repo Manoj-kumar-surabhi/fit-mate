@@ -1,4 +1,5 @@
 import "../css_files/home.css";
+import Cards from "./cards.jsx";
 import BodyBuilder from "../images/body_builder.png";
 
 export default function home() {
@@ -25,6 +26,7 @@ export default function home() {
           <img src={BodyBuilder} alt="error" />
         </div>
       </div>
+      <Cards />
     </div>
   );
 }

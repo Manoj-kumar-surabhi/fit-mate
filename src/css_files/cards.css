@@ -70,19 +70,20 @@ figure:hover::before {
   background-color: blanchedalmond;
 }
 
-div:after {
+h4:after {
   display: block;
   content: "";
-  border-bottom: solid 3px #019fb6;
+  border: solid black;
+  border-width: 0px 3px 3px 0px;
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
-div:hover:after {
+h4:hover:after {
   transform: scaleX(1);
 }
-div.fromRight:after {
+h4.fromRight:after {
   transform-origin: 100% 50%;
 }
-div.fromLeft:after {
+h4.fromLeft:after {
   transform-origin: 0% 50%;
 }
